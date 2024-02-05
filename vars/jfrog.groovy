@@ -1,11 +1,11 @@
 def call() {
    rtUpload (
-                serverId: 'jf-artifactory',
+                serverId: 'Jfrog',
                 spec: '''{
                       "files": [
                         {
                           "pattern": "*.jar",
-                           "target": "java-web-app/"
+                           "target": "example-repo-local/"
                         }
                     ]
                 }'''
