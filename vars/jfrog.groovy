@@ -1,6 +1,6 @@
 def call() {
    rtUpload (
-                serverId: 'Jfrog',
+                serverId: 'Jfrognew',
                 spec: '''{
                       "files": [
                         {
